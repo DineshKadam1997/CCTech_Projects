@@ -12,10 +12,10 @@ Read :: ~Read(){}
 void Read :: Read_from_STL_File()
 {
     ifstream in;
-    in.open("D:\\Dinesh\\STL5\\STL_Files\\flowerpot.stl");
+    in.open("D:\\Dinesh\\STL\\STL_Files\\flowerpot.stl");
 
     ofstream out;
-    out.open("D:\\Dinesh\\STL5\\TextFiles\\Sample.txt");
+    out.open("D:\\Dinesh\\STL\\TextFiles\\Sample.txt");
     string s,s1, s2, s3;
     double n1,n2,n3,iCnt;
     string Firstline;
