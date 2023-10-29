@@ -13,10 +13,10 @@ Write :: ~Write(){};
 void Write :: Write_in_Files()
 {
     ifstream in;
-    in.open("D:\\Dinesh\\STL5\\STL_Files\\flowerpot.stl");
+    in.open("D:\\Dinesh\\STL\\STL_Files\\flowerpot.stl");
 
     ofstream out1;
-    out1.open("D:\\Dinesh\\STL5\\TextFiles\\BoundingBox.txt");
+    out1.open("D:\\Dinesh\\STL\\TextFiles\\BoundingBox.txt");
     string s;
     double x,y,z,iCnt,distance;
     
@@ -105,12 +105,12 @@ void Write :: Write_in_Files()
     in.close();
 
     ofstream out2;
-    out2.open("D:\\Dinesh\\STL5\\TextFiles\\disect1.txt");
+    out2.open("D:\\Dinesh\\STL\\TextFiles\\disect1.txt");
 
     ofstream out3;
-    out3.open("D:\\Dinesh\\STL5\\TextFiles\\disect2.txt");
+    out3.open("D:\\Dinesh\\STL\\TextFiles\\disect2.txt");
     
-    in.open("D:\\Dinesh\\STL5\\STL_Files\\flowerpot.stl");
+    in.open("D:\\Dinesh\\STL\\STL_Files\\flowerpot.stl");
     iCnt = 0;
     while(in.eof() == 0)
     {
